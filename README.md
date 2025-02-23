@@ -1,6 +1,7 @@
 # AI Translator Web App
 
 This is a simple AI-powered translator web application built using **Flask** and **Deep Translator**.
+The deployment can be experienced live via this <a href="https://translator-v1-0.onrender.com">link</a>.
 
 ## 🚀 How to Run the Project
 
@@ -26,8 +27,7 @@ For frontend development, use a live server extension (like **VS Code Live Serve
 ```
 /project-folder
 │── app.py             # Main Flask backend
-│── templates/
-│   ├── index.html     # Frontend UI
+│── index.html     # Frontend UI
 │── static/
 │   ├── styles.css     # CSS Styling
 │── requirements.txt   # List of dependencies
