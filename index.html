@@ -16,7 +16,7 @@
                 return;
             }
 
-            const response = await fetch("http://127.0.0.1:5000/translate", {
+            const response = await fetch("https://translator-v1-0-v41s.vercel.app/translate", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ text: text, language: language })
